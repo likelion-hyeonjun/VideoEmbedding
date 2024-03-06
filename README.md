@@ -1,5 +1,7 @@
 # VideoEmbedding
 
+duration of time : 11 hrs
+
 ## Overview
 This project extends OpenCLIP to train video embedding model. 
 
