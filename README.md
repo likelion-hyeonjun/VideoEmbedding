@@ -1,15 +1,39 @@
 # VideoEmbedding
 
-## added files 
+## Overview
+This project extends OpenCLIP to support video embedding. It includes modifications and additions to handle raw video files and incorporate video-specific functionalities into the OpenCLIP framework.
 
-openclip/src/training/video_utils.py - to handle raw video file
+## Added Files
+- `openclip/src/training/video_utils.py`: Handles raw video files.
 
-## modified files
+## Modified Files
+1. `openclip/src/training/params.py`:
+   - Added a new choice for the parameter `dataset_type`: `"video"`.
+   - Introduced a new parameter: `video_max_frames`.
 
-openclip/src/training/params.py - add new choice for param "dataset_type" (video), new param and "video_max_frames"
-openclip/src/training/data.py - VideoCsvDataset Class added
-openclip/src/training/train.py - add logic for handle 'video' dataset type
+2. `openclip/src/training/data.py`:
+   - Added `VideoCsvDataset` Class.
 
-openclip/src/openclip/factory.py 
-openclip/src/openclip/model.py - add "VideoClip" class and "TemporalEncoderCfg"
-openclip/src/openclip/transformer.py - add "TemporalTransformer" class for Temproal Encoder 
+3. `openclip/src/training/train.py`:
+   - Implemented logic to handle the 'video' dataset type.
+
+4. `openclip/src/openclip/factory.py`:
+   - (Specify the changes if any)
+
+5. `openclip/src/openclip/model.py`:
+   - Added `VideoClip` class.
+   - Introduced `TemporalEncoderCfg`.
+
+6. `openclip/src/openclip/transformer.py`:
+   - Added `TemporalTransformer` class for Temporal Encoder.
+
+## Usage
+(Provide a brief description of how to use the new video embedding functionalities, including any necessary commands or steps.)
+
+## Dependencies
+(List any new dependencies required for the video embedding feature.)
+
+## Contribution
+This extension to OpenCLIP for video embedding is an ongoing project. Contributions, suggestions, and feedback are welcome.
+
+(Contact information or steps for contribution.)
