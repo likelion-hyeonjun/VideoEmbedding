@@ -1,7 +1,7 @@
 # VideoEmbedding
 
 ## Overview
-This project extends OpenCLIP to support video embedding. It includes modifications and additions to handle raw video files and incorporate video-specific functionalities into the OpenCLIP framework.
+This project extends OpenCLIP to train video embedding model. 
 
 ## Added Files
 - `openclip/src/training/video_utils.py`: Handles raw video files.
