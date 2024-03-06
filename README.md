@@ -18,7 +18,6 @@ This project extends OpenCLIP to train video embedding model.
    - Implemented logic to handle the 'video' dataset type.
 
 4. `openclip/src/openclip/factory.py`:
-   - (Specify the changes if any)
 
 5. `openclip/src/openclip/model.py`:
    - Added `VideoClip` class.
@@ -27,13 +26,3 @@ This project extends OpenCLIP to train video embedding model.
 6. `openclip/src/openclip/transformer.py`:
    - Added `TemporalTransformer` class for Temporal Encoder.
 
-## Usage
-(Provide a brief description of how to use the new video embedding functionalities, including any necessary commands or steps.)
-
-## Dependencies
-(List any new dependencies required for the video embedding feature.)
-
-## Contribution
-This extension to OpenCLIP for video embedding is an ongoing project. Contributions, suggestions, and feedback are welcome.
-
-(Contact information or steps for contribution.)
