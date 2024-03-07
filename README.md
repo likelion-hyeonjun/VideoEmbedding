@@ -19,7 +19,7 @@ This project extends OpenCLIP to train video embedding model.
 3. `openclip/src/training/train.py`:
    - Implemented logic to handle the 'video' dataset type.
 
-4. `openclip/src/openclip/factory.py`:
+4. `openclip/src/openclip/factory.py`
 
 5. `openclip/src/openclip/model.py`:
    - Added `VideoClip` class.
